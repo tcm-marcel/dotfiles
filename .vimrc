@@ -10,3 +10,5 @@ set showmatch
 syntax enable
 syntax on
 set colorcolumn=120
+
+autocmd BufNewFile,BufRead *.json set ft=javascript
